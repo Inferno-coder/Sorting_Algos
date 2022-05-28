@@ -5,7 +5,7 @@ public class Main{
 		Main obj=new Main();
 		obj.bubbleSort(a);
 		for(int i=0;i<a.length;i++){
-			System.out.println(a[i]);
+			System.out.print(a[i]+" ");
 		}
 	}
 	void bubbleSort(int a[]){
